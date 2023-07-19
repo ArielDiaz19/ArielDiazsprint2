@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Marck+Script&display=swap');
+*{
+    font-family: Lilita One;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: solid;
+}
+p{
+    font-size: 1.5em;
+}
+nav{
+    background-color: rgb(181, 234, 234);
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+}
+a{
+    font-size: 2rem;
+    color: rgb(243, 139, 160);
+}
+.logo{
+    width: 5rem;
+}
+header{
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    background-color: rgb(243, 139, 160);
+}
+h1{
+    margin: 2vh;
+}
+h2{
+    text-decoration-line: underline;
+    margin: 1vh;
+}
+.main-home{
+    min-height: 80vh;
+    padding: 6rem;
+}
+.homeimg1{
+    border-radius: 4rem;
+    width: 100%;
+    height:70vh;
+    object-fit: cover;
+}
+.text-img{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-img p{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+}
+.homeimg2{
+    border-radius: 2rem;
+    width: 20rem;
+    display: flex;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 10vh;
+    align-items: center;
+    background-color: rgb(181, 234, 234);
+}
+/* Home Termina */
+
+/* About Us Empieza */
+.about-img{
+    width: 20rem;
+}
+.about-div{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.main-about{
+    min-width: 90vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    gap: 3em;
+}
+.about-div p{
+    width: 20rem;
+    align-self: center;
+}
+/* Termina About Us */
+/* Empieza Contact */
+.main-contact{
+    text-align: center;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact-img{
+    width: 55vw;
+    border-radius: 2rem;
+}
+.email-phone{
+    color:
+}
+/* Termina Contact */
+
+/* Empieza More Information */
+.h2-info{
+    text-decoration-line: underline;
+}
+.main-info{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    font-size: 2rem;
+    width: 40rem;
+    height: 40rem;
+    border: solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    padding: 1em;
+    border: sold;
+}
+td{
+    border: solid;
+}
+/* Termina More Information */
+
+/* Empieza Benefits and Tips */
