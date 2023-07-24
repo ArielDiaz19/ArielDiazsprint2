@@ -8,9 +8,16 @@
 p{
     font-size: 1.5em;
 }
-nav{
+.container-home{
+    background-color: rgb(181, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-container{
     background-color: rgb(181, 234, 234);
     min-height: 5vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +32,7 @@ a{
 }
 .logo{
     width: 5rem;
+
 }
 header{
     min-height: 5vh;
@@ -68,16 +76,16 @@ h2{
     display: flex;
 }
 footer{
+    background-color:  rgb(181, 234, 234);
     display: flex;
     flex-direction: row;
     justify-content: center;
     min-height: 10vh;
     align-items: center;
-    background-color: rgb(181, 234, 234);
 }
-/* Home Termina */
+/* Termina Home */
 
-/* About Us Empieza */
+/* Empieza About Us */
 .about-img{
     width: 20rem;
 }
@@ -103,6 +111,7 @@ footer{
     align-self: center;
 }
 /* Termina About Us */
+
 /* Empieza Contact */
 .main-contact{
     text-align: center;
@@ -149,19 +158,117 @@ td{
 /* Termina More Information */
 
 /* Empieza Benefits and Tips */
+.main-benefits{
+    display: flex;
+    
+}
 .mayor{
     display: flex;
     flex-direction: column;
     align-items: center;
     object-fit: cover;
     margin: 1rem;
-    width: 90vw;
+    width: 100%;
+}
+.div-list1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55vw;
+    justify-content: space-around;
+}
+.div-list1 ol{
+    padding-left: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 3rem;
+}
+.div-list2 ol{
+    padding-left: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 3rem;
+}
+.div-list2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55vw;
+    justify-content: space-around;
 }
 .img-benefits{
-    height: 20rem;
-    width: 20rem;
+    height: 15rem;
+    width: 15rem;
     padding: 1rem;
     border-radius: 2rem;
     display: flex;
     object-fit: cover;
+}
+/* Termina Benefits and Tips */
+
+/* Empieza Raffle */
+.main-raffle{
+    min-height: 80vh;
+}
+.mapimg{
+    width: 50rem;
+    height: 30rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+.map{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.formulary{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.map-formulary{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+form{
+    width: 15rem;
+}
+fieldset{
+    border: none;
+}
+label,input{
+    margin: 2px;
+}
+.send{
+    width: 5rem;
+}
+@media screen and (max-width:768px){
+    .container-home{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    .logo-container{
+        order: 1;
+    }
 }
