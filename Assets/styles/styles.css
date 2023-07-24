@@ -81,6 +81,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     min-height: 10vh;
+    width: 100%;
     align-items: center;
 }
 /* Termina Home */
@@ -160,7 +161,6 @@ td{
 /* Empieza Benefits and Tips */
 .main-benefits{
     display: flex;
-    
 }
 .mayor{
     display: flex;
@@ -206,11 +206,16 @@ td{
     display: flex;
     object-fit: cover;
 }
+
 /* Termina Benefits and Tips */
 
 /* Empieza Raffle */
 .main-raffle{
     min-height: 80vh;
+}
+.subtitle-raffle{
+    text-align: center;
+    font-size: 2rem;
 }
 .mapimg{
     width: 50rem;
@@ -246,7 +251,7 @@ label,input{
 .send{
     width: 5rem;
 }
-@media screen and (max-width:768px){
+@media (max-width:768px){
     .container-home{
         display: flex;
         justify-content: space-between;
@@ -267,8 +272,106 @@ label,input{
     }
     nav a{
         font-size: 1.5rem;
+        padding: 0.2rem;
     }
     .logo-container{
         order: 1;
+    }
+/* Termina Home */
+
+/* Empieza About Us */
+    .about-img{
+        width: 13rem;
+        height: 20rem;
+    }
+    .about-div p{
+        width: 12rem;
+    }
+/* Termina About Us */
+    
+/* Empieza Contact */
+    .mail-phone{
+        padding: 2rem;
+        font-size: 1.6rem;
+    }
+/* Termina  Contact */
+
+/* Empieza More Information */
+    table{
+        height: 40rem;
+        font-size: 1.5rem;
+    }
+/* Termina More Information */
+
+/* Empieza Benefits And Tips */
+    .div-list1{
+        text-align: center;
+    }
+    .img-benefits{
+        width: 11rem;
+        height: 15rem;
+    }
+/* Termina Benefits And Tips */
+
+/* Empieza Raffle */
+
+    .subtitle-raffle{
+        font-size: 1.5rem;
+    }
+    .mapimg{
+        width: 25rem;
+        height: 26rem;
+    }
+    .map-formulary{
+        margin-right: 3rem;
+    }
+}
+@media (max-width:426px){
+    .homeimg1{
+        width: 20rem;
+        height: 18rem;
+    }
+    .homeimg2{
+        width: 10rem;
+        height: 14rem;
+    }
+    .text-img p{
+        font-size: 1rem;
+        padding: 2rem;
+    }
+/* Termina Home */
+
+/* Empieza About Us */
+    .about-img{
+        width: 10rem;
+        height: 20rem;
+        margin-right: 1rem;
+    }
+    .about-div p{
+        font-size: 1rem;
+}
+/* Termina About Us */
+
+/* Empieza Contact */
+    .mail-phone{
+        font-size: 1.3rem;
+    }
+    /* Termina Contact */
+
+    /* Empieza More Information */
+    table{
+        width: 10rem;
+    }
+    /* Termina More Info */
+
+    /* Empieza Raffle */
+    .map-formulary{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapimg{
+        width: 25rem;
+        height: 20rem;
+        padding: 2rem;
     }
 }
